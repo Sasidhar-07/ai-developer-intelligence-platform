@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "id": "repo-101",
+      "repoName": "torstaq/billing-ledger-service",
+      "language": "TypeScript",
+      "prCount": 18,
+      "openIssues": 3,
+      "deployFreq": "Daily",
+      "riskScore": 24,
+      "riskLevel": "Healthy",
+      "healthScore": 83,
+      "riskSignals": [
+        "Standard commit hygiene and normal PR throughput"
+      ],
+      "aiSummary": "Repository torstaq/billing-ledger-service (TypeScript) is operating in a healthy release window (24/100) with strong maintainability and clean deployment cadence.",
+      "recommendations": [
+        "Keep PR scope under ~250 changed lines and enforce CI checks on every branch.",
+        "Audit 3 open issues to separate quick wins from architectural blockers.",
+        "Maintain daily release rhythm for torstaq/billing-ledger-service with structured changelog notes."
+      ],
+      "owner": "Sasidhar",
+      "updatedAt": "2026-11-20T09:05:52.467Z"
+    },
+    {
+      "id": "repo-102",
+      "repoName": "torstaq/realtime-sync-gateway",
+      "language": "Node.js",
+      "prCount": 24,
+      "openIssues": 9,
+      "deployFreq": "Multiple / day",
+      "riskScore": 68,
+      "riskLevel": "High Risk",
+      "healthScore": 51,
+      "riskSignals": [
+        "High-churn / hotfix commit signal detected",
+        "Elevated open issue backlog (9 issues)"
+      ],
+      "aiSummary": "Repository torstaq/realtime-sync-gateway (Node.js) shows elevated regression pressure (68/100). Recommend targeted integration tests, staged canary rollout, and peer code review before merging.",
+      "recommendations": [
+        "Gate merge on automated API + auth regression checks and deploy to a 10% canary slice first.",
+        "Audit 9 open issues to separate quick wins from architectural blockers.",
+        "Maintain multiple / day release rhythm for torstaq/realtime-sync-gateway with structured changelog notes."
+      ],
+      "owner": "Vijaysimha",
+      "updatedAt": "2026-11-20T06:05:52.468Z"
+    },
+    {
+      "id": "repo-103",
+      "repoName": "torstaq/ui-design-tokens",
+      "language": "React",
+      "prCount": 9,
+      "openIssues": 2,
+      "deployFreq": "Weekly",
+      "riskScore": 42,
+      "riskLevel": "Moderate",
+      "healthScore": 70,
+      "riskSignals": [
+        "Touches sensitive auth, schema, or security boundary"
+      ],
+      "aiSummary": "Repository torstaq/ui-design-tokens (React) has balanced velocity with moderate change risk (42/100). Verify edge-case tests and monitor latency after deployment.",
+      "recommendations": [
+        "Keep PR scope under ~250 changed lines and enforce CI checks on every branch.",
+        "Audit 2 open issues to separate quick wins from architectural blockers.",
+        "Maintain weekly release rhythm for torstaq/ui-design-tokens with structured changelog notes."
+      ],
+      "owner": "Sasidhar",
+      "updatedAt": "2026-11-20T00:05:52.468Z"
+    }
+  ]
+}
