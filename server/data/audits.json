@@ -1,0 +1,72 @@
+{
+  "audits": [
+    {
+      "id": "1795161167398-o2h9q",
+      "fullName": "tailwindlabs/tailwindcss",
+      "overallScore": 90,
+      "scores": {
+        "overall": 90,
+        "documentation": 80,
+        "devops": 80,
+        "velocity": 100,
+        "community": 100
+      },
+      "stars": 98698,
+      "forks": 6486,
+      "openIssues": 111,
+      "primaryLang": "TypeScript",
+      "scannedAt": "2026-11-20T07:52:47.397Z"
+    },
+    {
+      "id": "1795161163650-87lb9",
+      "fullName": "react/react",
+      "overallScore": 91,
+      "scores": {
+        "overall": 91,
+        "documentation": 100,
+        "devops": 65,
+        "velocity": 100,
+        "community": 100
+      },
+      "stars": 252823,
+      "forks": 52815,
+      "openIssues": 1577,
+      "primaryLang": "JavaScript",
+      "scannedAt": "2026-11-20T07:52:40.323Z"
+    },
+    {
+      "id": "1795161160323-hess2",
+      "fullName": "react/react",
+      "overallScore": 91,
+      "scores": {
+        "overall": 91,
+        "documentation": 100,
+        "devops": 65,
+        "velocity": 100,
+        "community": 100
+      },
+      "stars": 252823,
+      "forks": 52815,
+      "openIssues": 1577,
+      "primaryLang": "JavaScript",
+      "scannedAt": "2026-11-20T07:52:40.323Z"
+    },
+    {
+      "id": "1795161160319-os6cq",
+      "fullName": "react/react",
+      "overallScore": 91,
+      "scores": {
+        "overall": 91,
+        "documentation": 100,
+        "devops": 65,
+        "velocity": 100,
+        "community": 100
+      },
+      "stars": 252823,
+      "forks": 52815,
+      "openIssues": 1577,
+      "primaryLang": "JavaScript",
+      "scannedAt": "2026-11-20T07:52:40.319Z"
+    }
+  ]
+}

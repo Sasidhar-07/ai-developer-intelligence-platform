@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  backend:
+    build: ./server
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
+      - CACHE_TTL_SECONDS=300
+    volumes:
+      - ./server/data:/app/data
+
+  frontend:
+    build: ./client
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
